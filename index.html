@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northstar Market | Products for Everyday Living</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="template2.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#home" class="logo">
+                <img decoding="async" src="images/logo.jpg" alt="Northstar Market logo" />
+            </a>
+            <nav>
+                <!-- this icon is added for mobile (3 dashes) -->
+                <!-- the icone name is fas fa-bars -->
+                <!-- toggle-menu is the class name -->
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#services">Why Shop With Us</a></li>
+                    <li><a href="#portfolio">Products</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#pricing">Product Bundles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- just add icon for search -->
+                <div class="form">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+
+    <!-- Start Landing -->
+
+    <div class="landing" id="home">
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <div class="content">
+                <h2>Discover Products<br />You’ll Love.</h2>
+                <p>Explore a carefully selected range of useful products for your home, work and everyday life. Find practical essentials, thoughtful details and new favorites in one convenient place.</p>
+            </div>
+        </div>
+        <i class="fas fa-angle-left change-background fa-2x"></i>
+        <i class="fas fa-angle-right change-background fa-2x"></i>
+        <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- End Landing -->
+
+
+
+
+    <!-- Start Services -->
+    <div class="services" id="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Why Shop With Us</h2>
+                <p>
+                    We make it easier to discover useful products, compare your options and shop with confidence.
+                </p>
+            </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <i class="fas fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>Carefully Selected Products</h3>
+                        <p>Explore a considered collection of everyday essentials, practical accessories and products chosen for quality and usefulness.</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fas fa-cog fa-3x"></i>
+                    <div class="text">
+                        <h3>Clear Product Information</h3>
+                        <p>Find straightforward descriptions and key details to help you understand each product before making a decision.</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fas fa-pencil-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>Convenient Shopping</h3>
+                        <p>Browse our collections in one place and discover options for your home, work and personal lifestyle.</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fas fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>Helpful Customer Support</h3>
+                        <p>Have a question about a product or an order? Our team is here to help you find the information you need.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+
+
+
+    <!-- Start Design -->
+    <div class="design">
+        <!-- no container here (the images full the screen, like in landing section) -->
+        <div class="image">
+            <img decoding="async" src="images/mobile.jpg" alt="A selection of modern everyday products" />
+        </div>
+        <div class="text">
+            <h2>A Better Way to Shop</h2>
+            <ul>
+                <li>Useful products for everyday needs</li>
+                <li>Clear details to support confident choices</li>
+                <li>Collections organized for easy browsing</li>
+                <li>Friendly help before and after your order</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Design -->
+
+
+
+    <!-- Start Portfolio -->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Featured Products</h2>
+                <p>
+                    We believe shopping should feel simple, useful and inspiring. Northstar Market brings together products selected to make everyday routines a little better.
+                </p>
+            </div>
+            <ul class="shuffle">
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="tech">Tech</li>
+                <li data-filter="home">Home</li>
+                <li data-filter="lifestyle">Lifestyle</li>
+                <li data-filter="accessories">Accessories</li>
+            </ul>
+        </div>
+
+        <!-- we use container in this above part only -->
+        <!-- for next part (full screen images, no container) -->
+
+        <div class="imgs-container">
+            <div class="box" data-category="tech">
+                <img decoding="async" src="images/shuffle-01.jpg" alt="Wireless Headphones" />
+                <div class="caption">
+                    <h4>Wireless Headphones</h4>
+                    <p>Tech</p>
+                </div>
+            </div>
+            <div class="box" data-category="home">
+                <img decoding="async" src="images/shuffle-02.jpg" alt="Minimal Table Lamp" />
+                <div class="caption">
+                    <h4>Minimal Table Lamp</h4>
+                    <p>Home</p>
+                </div>
+            </div>
+            <div class="box" data-category="lifestyle">
+                <img decoding="async" src="images/shuffle-03.jpg" alt="Everyday Travel Bottle" />
+                <div class="caption">
+                    <h4>Everyday Travel Bottle</h4>
+                    <p>Lifestyle</p>
+                </div>
+            </div>
+            <div class="box" data-category="accessories">
+                <img decoding="async" src="images/shuffle-04.jpg" alt="Classic Everyday Watch" />
+                <div class="caption">
+                    <h4>Classic Everyday Watch</h4>
+                    <p>Accessories</p>
+                </div>
+            </div>
+            <div class="box" data-category="tech">
+                <img decoding="async" src="images/shuffle-05.jpg" alt="Portable Bluetooth Speaker" />
+                <div class="caption">
+                    <h4>Portable Bluetooth Speaker</h4>
+                    <p>Tech</p>
+                </div>
+            </div>
+            <div class="box" data-category="home">
+                <img decoding="async" src="images/shuffle-06.jpg" alt="Ceramic Home Set" />
+                <div class="caption">
+                    <h4>Ceramic Home Set</h4>
+                    <p>Home</p>
+                </div>
+            </div>
+            <div class="box" data-category="lifestyle">
+                <img decoding="async" src="images/shuffle-07.jpg" alt="Daily Carry Backpack" />
+                <div class="caption">
+                    <h4>Daily Carry Backpack</h4>
+                    <p>Lifestyle</p>
+                </div>
+            </div>
+            <div class="box" data-category="accessories">
+                <img decoding="async" src="images/shuffle-08.jpg" alt="Essential Sunglasses" />
+                <div class="caption">
+                    <h4>Essential Sunglasses</h4>
+                    <p>Accessories</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <!-- End Portfolio -->
+
+
+    <!-- Start Video -->
+    <div class="video">
+        <video autoplay muted loop>
+            <source src="images/awesome-video.mp4" type="video/mp4" />
+        </video>
+        <div class="text">
+            <h2>See What Fits Your Everyday</h2>
+            <p>Discover practical finds and thoughtful products for daily living.</p>
+            <button type="button">See More</button>
+        </div>
+    </div>
+    <!-- End Video -->
+
+
+
+    <!-- Start About -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About Northstar Market</h2>
+                <p>
+                    These are sample testimonials for this portfolio demonstration. Replace them with genuine customer feedback before publishing.
+                </p>
+            </div>
+            <img decoding="async" src="images/about.jpg" alt="Northstar Market product collection" />
+        </div>
+    </div>
+    <!-- End About -->
+
+
+
+    <!-- Start Stats -->
+    <div class="stats">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-mug-hot"></i>
+                <div class="number">1,236</div>
+                <p>Products Explored</p>
+            </div>
+            <div class="box">
+                <i class="far fa-folder"></i>
+                <div class="number">256</div>
+                <p>Items in Our Range</p>
+            </div>
+            <div class="box">
+                <i class="far fa-envelope"></i>
+                <div class="number">1,743</div>
+                <p>Customer Inquiries</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-trophy"></i>
+                <div class="number">17</div>
+                <p>Product Collections</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Stats -->
+
+
+
+    <!-- Start Skills -->
+    <div class="our-skills">
+        <div class="container">
+            <div class="testimonials">
+                <h3>What Shoppers Say</h3>
+                <p>
+                    We focus on the details that make shopping clearer and more convenient.
+                </p>
+                <div class="content">
+                    <img decoding="async" src="images/skills-01.jpg" alt="Sample shopper portrait" />
+                    <div class="text">
+                        “The product information made it easy to compare options and choose what suited me.”
+                        <p>Alex Morgan, Sample Customer</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img decoding="async" src="images/skills-02.jpg" alt="Sample shopper portrait" />
+                    <div class="text">
+                        “I liked how simple it was to browse the collections and find useful everyday items.”
+                        <p>Jamie Lee, Sample Customer</p>
+                    </div>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Our Store Commitments</h3>
+                <p>
+                    Explore example bundles created around common needs. Prices and included items are demonstration content.
+                </p>
+
+                <div class="prog-holder">
+                    <h4>Product Selection</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
+                    </div>
+                </div>
+
+
+                <div class="prog-holder">
+                    <h4>Clear Information</h4>
+                    <div class="prog">
+                        <span style="width: 85%" data-progress="85%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Easy Browsing</h4>
+                    <div class="prog">
+                        <span style="width: 80%" data-progress="80%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Customer Support</h4>
+                    <div class="prog">
+                        <span style="width: 90%" data-progress="90%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Skills -->
+
+
+
+
+
+
+    <!-- Start Quote -->
+    <div class="quote">
+        <div class="container">
+            <q>Good products should be useful, thoughtfully chosen and easy to shop for.</q>
+            <span>The Northstar Market Team</span>
+        </div>
+    </div>
+    <!-- End Quote -->
+
+
+
+    <!-- Start Pricing -->
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <!-- main heading part, we made it before as varibale -->
+            <div class="main-heading">
+                <h2>Product Bundles</h2>
+                <p>
+                    Questions about a product, an order or a collection? Send us a message and our team will be happy to help.
+                </p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <!-- for ($ & Month), we make them using before & after -->
+                        <h3>Starter Set</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Everyday essential</li>
+                        <li>Simple product selection</li>
+                        <li>Great for trying something new</li>
+                        <li>Sample bundle</li>
+
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Home Refresh</h3>
+                        <span>29</span>
+                    </div>
+                    <ul>
+                        <li>Useful home accessory</li>
+                        <li>Practical everyday item</li>
+                        <li>A thoughtful combination</li>
+                        <li>Sample bundle</li>
+
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Tech Picks</h3>
+                        <span>39</span>
+                    </div>
+                    <ul>
+                        <li>Selected tech accessory</li>
+                        <li>Everyday convenience</li>
+                        <li>Modern practical design</li>
+                        <li>Sample bundle</li>
+
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Lifestyle Pack</h3>
+                        <span>49</span>
+                    </div>
+                    <ul>
+                        <li>Lifestyle favorite</li>
+                        <li>Useful daily companion</li>
+                        <li>Curated product pairing</li>
+                        <li>Sample bundle</li>
+
+                    </ul>
+                    <div class="foot">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <p class="contact-text">Need help choosing a product?</p>
+            <a href="#contact" class="contact-link">Ask Our Team</a>
+        </div>
+    </div>
+    <!-- End Pricing -->
+
+
+
+    <!-- Start Subscribe -->
+    <div class="subscribe">
+        <div class="container">
+            <form action="">
+                <i class="far fa-envelope fa-lg"></i>
+                <input type="email" name="mail" placeholder="Your Email" aria-label="Your email" required />
+                <input type="submit" value="Subscribe" />
+            </form>
+            <p>
+                Sign up for product updates, new collection announcements and occasional special offers.
+            </p>
+        </div>
+    </div>
+    <!-- End Subscribe -->
+
+
+
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Northstar Market</h2>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt.
+                </p>
+            </div>
+            <div class="content">
+                <form action="">
+                    <input class="main-input" type="text" name="name" placeholder="Your Name" aria-label="Your name" required />
+                    <input class="main-input" type="email" name="mail" placeholder="Your Email" aria-label="Your email" required />
+                    <!-- textarea to insert paragraph text -->
+                    <textarea class="main-input" name="message" placeholder="Tell us how we can help" aria-label="Your message" required></textarea>
+                    <input type="submit" value="Send Message" />
+                </form>
+                <div class="info">
+                    <h4>Get In Touch</h4>
+                    <span class="phone">Replace with your store phone</span>
+                    <span class="phone">Replace with your support hours</span>
+                    <h4>Where We Are</h4>
+                    <!-- to insert adress -->
+                    <address>Replace with your business address<br />City, State / Region<br />Country</address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+
+
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <img decoding="async" src="images/logo.jpg" alt="Northstar Market logo" />
+            <p>Follow Northstar Market</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="copyright">&copy; 2026 <span>Northstar Market</span> Demo Store. All Rights Reserved.</p>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+
+    <!-- EmailJS Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js"></script>
+
+    <!-- Northstar Market interactions -->
+    <script src="js/navigation.js" defer></script>
+    <script src="js/landing-slider.js" defer></script>
+    <script src="js/portfolio.js" defer></script>
+    <script src="js/testimonials.js" defer></script>
+    <script src="js/stats-skills.js" defer></script>
+    <script src="js/forms-pricing.js" defer></script>
+    <script src="js/extras.js" defer></script>
+
+</body>
+
+</html>
